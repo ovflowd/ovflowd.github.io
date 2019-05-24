@@ -20,6 +20,7 @@ projects:
   sort_by: stars
   limit: 9
   exclude:
+    archived: false
     forks: true
     projects:
 
@@ -29,6 +30,7 @@ social_media:
   instagram: ovflowd
   keybase: ovflowd
   linkedin: claudio-santoro
+  # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
   telegram: ovflowd
