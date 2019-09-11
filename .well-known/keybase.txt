@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ovflowd
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://santoro.dev
+  * I am ovflowd (https://keybase.io/ovflowd) on keybase.
+  * I have a public key ASBBcEuLG-jyoj5AYtkrS8W_iDVqHU52V9iVCPNrQ3gihAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012041704b8b1be8f2a23e4062d92b4bc5bf88356a1d4e7657d89508f36b437822840a",
+      "host": "keybase.io",
+      "kid": "012041704b8b1be8f2a23e4062d92b4bc5bf88356a1d4e7657d89508f36b437822840a",
+      "uid": "bf09f9c4b1bedad39ecc8c0da0f46d19",
+      "username": "ovflowd"
+    },
+    "merkle_root": {
+      "ctime": 1568193091,
+      "hash": "5fde4cbedb81593ad4b9f4b126f19113c736b33c8685e826d3a116674ef016f66c42b6210cba9d10737d3cdbb6af2d79618f8df6e3f422af7f75e0f5d50acd3b",
+      "hash_meta": "93efb9dbde0200fa19d83f4505c6c502ef6f2df555301bde2547669e32b29fb0",
+      "seqno": 6655052
+    },
+    "service": {
+      "entropy": "l83qvTjmOkAomYelz2kwvA+9",
+      "hostname": "santoro.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.1"
+  },
+  "ctime": 1568193105,
+  "expire_in": 504576000,
+  "prev": "ce80424931f11de99bc97ff7643800be55d9234555710eef16c8ccc5f20982a0",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQXBLixvo8qI+QGLZK0vFv4g1ah1OdlfYlQjza0N4IoQKp3BheWxvYWTESpcCDMQgzoBCSTHxHembyX/3ZDgAvlXZI0VVcQ7vFsjMxfIJgqDEINWX1bEHF4v4e3T8NF0AT0+CkqH6CNjWQGlO+IEZMzKpAgHCo3NpZ8RAalK23EJXhGklOemdFGTqAQcGKuNSeCbf8XpDLz+2eWIyu8RMAx3xQ9kjGxTkOeDtRsqk38nkM6YYVAj5/ijhBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBInmLzg4u3s2OeVJsNhrs7FxbMVXQBw7GTuCu/QTSkjo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ovflowd
+
+==================================================================
