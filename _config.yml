@@ -24,6 +24,8 @@ projects:
     forks: true
     projects:
 
+include: [".well-known"]
+
 social_media:
   facebook: ovflowd
   # hackerrank: your_username
