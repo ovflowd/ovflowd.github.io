@@ -12,5 +12,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Build 🔧
         uses: meitar/jekyll-builder-for-github-pages-action@master
+        env:
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           SECRET_GH_PAGES_API_TOKEN: ${{ secrets.ACCESS_TOKEN }}
