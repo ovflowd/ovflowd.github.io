@@ -16,6 +16,8 @@ defaults:
     values:
       layout: "post"
 
+repository: ovflowd/ovflowd.github.io
+
 projects:
   sort_by: stars
   limit: 12
