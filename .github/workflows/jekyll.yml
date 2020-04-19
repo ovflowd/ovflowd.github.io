@@ -1,9 +1,9 @@
 name: GitHub Pages Build
 on:
   push:
-    branches: [ master ]
+    branches: [ jekyll ]
   pull_request:
-    branches: [ master ]
+    branches: [ jekyll ]
   schedule:
     - cron:  '0 */24 * * *'
 jobs:
