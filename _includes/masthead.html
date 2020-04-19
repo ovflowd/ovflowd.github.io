@@ -6,42 +6,44 @@
 
 <img src="{{ user.avatar_url }}" class="rounded-2 mb-3" style="max-width: 150px;">
 <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
-<p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-  {{ user.bio }}
-</p>
+<div class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+  <p style="text-align: justify;white-space: pre-line;">Kindness is amazing! 💖✨💯!
+    <b>Hey 👋, how are you doing?</b> I'm Claudio, a software engineer that loves open source and communities.
+    I'm currently a <b>Community Manager at the GNOME Foundation</b>. I love to travel, watch series, play games and make new friends.
+    I also <b>love solving problems</b>, build-brick-and-then-fix stuff. I' curious about the world and always looking for the next gig.
+    I'm selfless and I believe that kindness is love.
+    <b>I also love 🍫</b>
+  </p>
+</div>
 
 {% if include.metadata %}
   <div class="f4 mb-6">
-    {% if user.name %}
-      <div class="{{ metadata_styles }}">
-        {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
-        <a href="https://github.com/{{ user.login }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          @{{ user.login }}
-        </a>
-      </div>
-    {% endif %}
     {% if user.company %}
     <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-      {% octicon briefcase height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Company %}
+      {% octicon organization height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Company %}
       {{ user.company }}
     </div>
     {% endif %}
     {% if user.email %}
       <div class="{{ metadata_styles }}">
-        {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
+        {% octicon comment-discussion height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Email %}
         <a href="mailto:{{ user.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
           {{ user.email }}
         </a>
       </div>
     {% endif %}
+    <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+      {% octicon key height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:PGP %}
+      5A0A34183B8CA5D5
+    </div>
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-        {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
+        {% octicon home height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
         {{ user.location }}
       </div>
     {% endif %}
     {% if site.social_media %}
-      <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
+      <div class="d-flex flex-wrap flex-items-start mt-4 {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
         {% for account in site.social_media %}
           <div class="{% unless forloop.last == true %}mr-3{% endunless %} mb-3">
             {% assign service_shortname = account[0] %}
@@ -52,9 +54,6 @@
           </div>
         {% endfor %}
       </div>
-    {% endif %}
-    {% if user.hireable %}
-      <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     {% endif %}
   </div>
 {% endif %}

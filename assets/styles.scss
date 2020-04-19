@@ -45,10 +45,14 @@
 
   li ul, li ol {
     padding-left: 16px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
 
 .min-height-full {
   min-height: 100vh;
+}
+
+.home-content {
+  background: url(contribution-graph.svg) repeat-x 0 100px;
 }

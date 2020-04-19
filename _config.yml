@@ -30,14 +30,15 @@ include: [".well-known"]
 social_media:
   # facebook: ovflowd
   # hackerrank: your_username
+  twitter: ovflowd
+  github: ovflowd
+  telegram: ovflowd
   instagram: ovflowd
-  keybase: ovflowd
   linkedin: claudio-santoro
+  # keybase: ovflowd
   # mastodon: your_username
   # medium: your_username
-  stackoverflow: 13355219
-  telegram: ovflowd
-  twitter: ovflowd
+  # stackoverflow: 13355219
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url

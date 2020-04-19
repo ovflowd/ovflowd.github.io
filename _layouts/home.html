@@ -26,13 +26,18 @@
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
-    <div class="position-relative flex-self-stretch {% if site.style == 'dark' %}bg-blue{% else %}border-md-right border-blue-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 pr-4 pr-md-6 pr-lg-7 py-6">
-      <div class="hide-sm hide-md d-lg-block d-xl-block position-fixed pl-4 pl-md-6 pl-lg-7" style="width: inherit;">
+    <div class="position-relative flex-self-stretch {% if site.style == 'dark' %}bg-blue{% else %}border-md-right border-blue-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 py-6">
+      <div class="hide-sm hide-md d-lg-block d-xl-block position-fixed px-4 px-md-6 px-lg-7" style="width: inherit;">
         {% include masthead.html metadata=true %}
       </div>
-      <div class="hide-lg hide-xl d-md-block d-sm-block pl-4 pl-md-6 pl-lg-7">
+      <div class="hide-lg hide-xl d-md-block d-sm-block px-4 px-md-6 px-lg-7">
         {% include masthead.html metadata=true %}
       </div>
+      <p class="text-center text-white position-absolute bottom-0 right-0 mx-4 text-center my-2 hide-sm">
+        Hosted on {% octicon logo-github height:20 class:"v-align-top" fill:{{ icon_color }} aria-label:Location %}
+        using <a href="https://github.dev" class="text-white"><b>.DEV</b></a>
+        and <a href="https://http://jekyllrb.com" class="text-white"><b>Jekyll</b></a>
+      </p>
     </div>
 
     <div class="position-relative col-md-7 col-lg-8 col-xl-9 border-top border-md-top-0">
@@ -50,7 +55,7 @@
         </div>
       </div>
 
-      <div class="bg-blue-light">
+      <div class="home-content bg-blue-light">
         <div class="mx-auto px-4 py-6 px-lg-7" style="max-width: 900px;">
           {% include projects.html %}
 
