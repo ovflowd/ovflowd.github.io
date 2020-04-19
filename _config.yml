@@ -8,8 +8,6 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
-repository: ovflowd/ovflowd.github.io
-
 defaults:
   -
     scope:
