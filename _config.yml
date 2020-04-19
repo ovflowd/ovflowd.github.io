@@ -1,5 +1,6 @@
 layout: sidebar
 style: dark
+encoding: utf-8
 
 plugins:
   - jekyll-octicons
@@ -34,7 +35,7 @@ social_media:
   linkedin: claudio-santoro
   # mastodon: your_username
   # medium: your_username
-  # stackoverflow: your_user_id
+  stackoverflow: 13355219
   telegram: ovflowd
   twitter: ovflowd
   # unsplash: your_username
@@ -46,120 +47,160 @@ topics:
   - name: React
     web_url: https://github.com/topics/react
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png
+    description: My experience with React is solid, and includes the development of many applications.
   - name: Redux
     web_url: https://github.com/topics/redux
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png
+    description: I used Redux in the development of two applications so far.
   - name: Node.js
     web_url: https://github.com/topics/node
     image_url: https://raw.githubusercontent.com/github/explore/fd96fceccf8c42c99cbe29cf0f8dcc4736fcb85a/topics/nodejs/nodejs.png
+    description: I have experience developing/crafting applications, tools and libraries with Node.js/CommonJS
   - name: Angular
     web_url: https://github.com/topics/angular
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/angular/angular.png
+    description: My experience with Angular covers Angular 1, Angular 2, Angular 4 and Angular 6.
   - name: Typescript
     web_url: https://github.com/topics/typescript
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/typescript/typescript.png
+    description: I have amateur experience with Typescript. Used it in the past, but I would not consider myself a master on the subject.
   - name: JavaScript
     web_url: https://github.com/topics/javascript
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+    description: My professional and non-professional experience with JavaScript includes 8+ years of using, playing, coding and tooling with JavaScript, since before the times of ES2015 and Prototype.
   - name: Webpack
     web_url: https://github.com/topics/javascript
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png
+    description: I have used Webpack in multiple projects so far. Being able to package projects intended for web without a single snatch.
   - name: Symfony
     web_url: https://github.com/topics/symfony
     image_url: https://raw.githubusercontent.com/github/explore/d0c5a5e31e1776ad62379ef5f6b703bcf107d3a3/topics/symfony/symfony.png
+    description: I have intermediate experience with Symfony, covering at least one year of experience within.
   - name: PHP
     web_url: https://github.com/topics/php
     image_url: https://raw.githubusercontent.com/github/explore/ccc16358ac4530c6a69b1b80c7223cd2744dea83/topics/php/php.png
+    description: I have professional and advanced experience with PHP, being a regular coder since PHP 5.2, and always following the latest updates. I would consider myself a master on it.
   - name: Laravel
     web_url: https://github.com/topics/laravel
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/laravel/laravel.png
+    description: My experience with Laravel also covers Laravel Lumen and other sub projects like Social. I have more than 3 years of experience with Laravel.
   - name: Clojure
     web_url: https://github.com/topics/clojure
     image_url: https://raw.githubusercontent.com/github/explore/a4f50275e9736bcd9f255084c4908627f5dd9069/topics/clojure/clojure.png
+    description: Clojure was my first functional programming language. I'm fascinated with it, and sometimes play with it. I used on personal projects at least thrice.
   - name: C#
     web_url: https://github.com/topics/csharp
     image_url: https://raw.githubusercontent.com/github/explore/be5b703144fcd73075e7a55459d6eaf8c01469e5/topics/csharp/csharp.png
+    description: My experience with C# goes from creating Gaming Emulators (Ragnarok, Habbo Hotel, Club Penguin) (CLI) and creating Desktop Applications (WPF/WFA).
   - name: HTML
     web_url: https://github.com/topics/html
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/html/html.png
+    description: I'm used with creating Web pages with this markup language. Not much to say about HTML, I'm experienced with XHTML and HTML5.
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png
+    description: I would consider myself an advanced CSS user, understanding CSS3 and being able to do some tricks (Flex, Animations, Grids, etc). But I'm not a master on it.
   - name: Android
     web_url: https://github.com/topics/android
     image_url: https://raw.githubusercontent.com/github/explore/a3520d60fbf9b0bdd0b7d563a1a3ed596acd8489/topics/android/android.png
+    description: I have a little of experience in developing Android applications. Most of my experience is related to GNOME.
   - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+    description: I have intermediate experience with Sass (SCSS).
   - name: Linux
     web_url: https://github.com/topics/linux
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/linux/linux.png
+    description: I have intermediate experience with Linux. I'm an advanced user, but I know there's a lot more to know.
   - name: AWS
     web_url: https://github.com/topics/aws
     image_url: https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png
+    description: My experiences with AWS covers all the basic (ECS, EC2, RDS, DocumentDB, S3, Route53, VPC, IAM, [...]) stack. I have no experience with Serverless, yet. I would consider myself an AWS generalist.
   - name: Azure
     web_url: https://github.com/topics/azure
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/azure/azure.png
+    description: I have experience with Azure, tracing back the times of Windows Azure. My overall experience could be defined as being an Intermediate user.
   - name: Python
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+    description: Python is one of the programming langues I have very little experience, but I'm truly eager to learn it and master it.
   - name: R
     web_url: https://github.com/topics/r
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png
+    description: My experiences with RLang are amateur/basic. Almost only used it during my Bachelors.
   - name: Git
     web_url: https://github.com/topics/git
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/git/git.png
+    description: I have intermediate experience with Git, being able to squash, rebase, cherry picking, resolving conflicts and other tricks. But I know there are still many other commands to cover.
   - name: JSON
     web_url: https://github.com/topics/json
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/json/json.png
+    description: I fully understand the jSON syntax.
   - name: LaTeX
     web_url: https://github.com/topics/latex
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/latex/latex.png
+    description: I have experience with LaTeX and writing papers. Already collaborated to publishing papers at IEEE and Elsevier.
   - name: Arduino
     web_url: https://github.com/topics/arduino
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/arduino/arduino.png
+    description: I love Internet of Things. I have intermediate experience with Arduino and already developed many applications (Smart Camera, Access Control, Monitoring, Environment Monitoring, Weather monitoring) with it.
   - name: Raspberry
     web_url: https://github.com/topics/raspberry-pi
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/raspberry-pi/raspberry-pi.png
+    description: I'm a Raspby enthusiast, and own A Raspberry PI 3 and Raspberry PI 4. Mostly used it for Monitoring, IoT, Network Gateways (PiHole, eBlocker).
   - name: Docker
     web_url: https://github.com/topics/docker
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/docker/docker.png
+    description: I have intermediate and professional Docker experience. Including Docker Compose and a little of Docker Swarm.
   - name: Kubernetes
     web_url: https://github.com/topics/kubernetes
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png
+    description: I have amateur to intermediate Kubernetes understanding. I'm able to create Deployments, Services, Applications. Realise maintenance in Pods, deploy Dashboards and other stuff.
   - name: Vagrant
     web_url: https://github.com/topics/vagrant
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vagrant/vagrant.png
+    description: I have amateur experience with Vagrant. Mostly on professional environment.
   - name: Electron
     web_url: https://github.com/topics/electron
     image_url: https://raw.githubusercontent.com/github/explore/0c94d4af11c3f43f99170bd60329fa9285ca456b/topics/electron/electron.png
+    description: I already developed some small applications using Electron, I would say I'm an amateur on it.
   - name: .NET
     web_url: https://github.com/topics/dotnet
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/dotnet/dotnet.png
+    description: My experience with .NET programming includes C# and C# Roslin, and also a little of ASP and ASP.NET
   - name: GraphQL
     web_url: https://github.com/topics/graphql
     image_url: https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png
+    description: I have understanding of the GraphQL notation and already designed some APIs using it.
   - name: Homebrew
     web_url: https://github.com/topics/homebrew
     image_url: https://raw.githubusercontent.com/github/explore/41181cfbaaa29f8c8b92314f95cb5b9d6f4b4a61/topics/homebrew/homebrew.png
+    description: I love Homebrew and Homebrew Casks. Homebrew is my daily driver.
   - name: Ansible
     web_url: https://github.com/topics/ansible
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ansible/ansible.png
+    description: I have small experience with creating Ansible scripts for Vagrant.
   - name: Awesome
     web_url: https://github.com/topics/awesome
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/awesome/awesome.png
+    description: I just love the Awesome Lists! You should give a look into them!
   - name: Kotlin
     web_url: https://github.com/topics/kotlin
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/kotlin/kotlin.png
+    description: Kotlin is a language I have little to zero experience, and it's another language I'm eager to start working with.
   - name: Java
     web_url: https://github.com/topics/java
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png
+    description: I have intermediate to advanced experience with Java. I already created some applications, and I have experience with Spring and Spring Boot.
   - name: MySQL
     web_url: https://github.com/topics/mysql
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png
+    description: MySQL is my favorite database for day-to-day applications. I have a good understanding of the SQL1999 (SQL/PSM). I also have experience with LINQ and N1QL that are variations of the SQL dialect.
   - name: PostgresSQL
     web_url: https://github.com/topics/postgresql
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png
+    description: I have amateur to intermediate experience with Postgres and the PL/pgSQL
   - name: MongoDB
     web_url: https://github.com/topics/mongodb
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png
+    description: I have a moderate amount of experience with MongoDB. I also have experience with Cassandra and CouchDB/Couchbase.
