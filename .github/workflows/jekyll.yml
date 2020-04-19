@@ -13,10 +13,9 @@ jobs:
         with:
           persist-credentials: false
       - name: Build 🔧
-        run: |
-          docker run \
-          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+        uses: meitar/jekyll-builder-for-github-pages-action@master
+        with:
+          secret_gh_pages_api_token: ${{ secrets.ACCESS_TOKEN }}
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
