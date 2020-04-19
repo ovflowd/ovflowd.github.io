@@ -34,6 +34,12 @@
         {{ user.location }}
       </div>
     {% endif %}
+    {% if user.company %}
+    <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+      {% octicon briefcase height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Company %}
+      {{ user.company }}
+    </div>
+    {% endif %}
     {% if site.social_media %}
       <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
         {% for account in site.social_media %}
