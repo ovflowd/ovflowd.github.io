@@ -16,13 +16,14 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
       - name: Install NPM ⬇️
-          uses: actions/setup-node@v1
-          with:
-            node-version: ${{ matrix.node-version }}
-              - run: npm install
-          env:
-            CI: true
-      - name: Build 🔧
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install NPM Packages 🔧
+        run: npm install
+        env:
+          CI: true
+      - name: Build & Deploy 🚀
         uses: meitar/jekyll-builder-for-github-pages-action@master
         env:
           PAGES_REPO_NWO: ${{ github.repository }}
