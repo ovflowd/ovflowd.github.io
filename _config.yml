@@ -21,7 +21,7 @@ defaults:
     values:
       layout: "post"
 
-bio: "Kindness is amazing! 💖✨💯!
+bio: "Kindness is amazing! 💖✨💯!\r
       \r<b>Hey 👋, how are you doing?</b> I'm Claudio, a software engineer that loves open source and communities.
       \rI'm currently a <b>Community Manager at the GNOME Foundation</b>. I love to travel, watch series, play games and make new friends.
       \rI also <b>love solving problems</b>, build-brick-and-then-fix stuff. I'm curious about the world and always looking for the next gig.
@@ -147,7 +147,7 @@ topics:
   - name: JSON
     web_url: https://github.com/topics/json
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/json/json.png
-    description: I fully understand the jSON syntax.
+    description: I fully understand the jSON syntax. And have experience with designing and crafting APIs with jSON.
   - name: LaTeX
     web_url: https://github.com/topics/latex
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/latex/latex.png
