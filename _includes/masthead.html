@@ -15,7 +15,8 @@
     {% if user.company %}
     <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
       {% octicon organization height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Company %}
-      {% for part in user.company | split: " " %}
+      {% assign link = user.company | split: " " %}
+      {% for part in link %}
         {% if part contains "@" %}
           <a class="text-white" href="https://github.com/{{ part | replace: '@', '' }}">{{ part | replace: '@', '' }}</a>
         {% else %}
