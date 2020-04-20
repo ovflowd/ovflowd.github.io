@@ -1,0 +1,25 @@
+{
+  "name": "ovflowd.github.io",
+  "version": "1.0.0",
+  "description": "### Showcase your software development skills",
+  "main": "index.js",
+  "dependencies": {
+    "@primer/css": "^14.3.0",
+    "@primer/octicons": "^9.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovflowd/ovflowd.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovflowd/ovflowd.github.io/issues"
+  },
+  "homepage": "https://github.com/ovflowd/ovflowd.github.io#readme"
+}

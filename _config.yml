@@ -9,9 +9,13 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -20,7 +24,7 @@ defaults:
 bio: "Kindness is amazing! 💖✨💯!
       \r<b>Hey 👋, how are you doing?</b> I'm Claudio, a software engineer that loves open source and communities.
       \rI'm currently a <b>Community Manager at the GNOME Foundation</b>. I love to travel, watch series, play games and make new friends.
-      \rI also <b>love solving problems</b>, build-brick-and-then-fix stuff. I' curious about the world and always looking for the next gig.
+      \rI also <b>love solving problems</b>, build-brick-and-then-fix stuff. I'm curious about the world and always looking for the next gig.
       \rI'm selfless and I believe that kindness is love.
       <b>I also love 🍫</b>"
 
