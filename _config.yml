@@ -143,7 +143,7 @@ topics:
   - name: JSON
     web_url: https://github.com/topics/json
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/json/json.png
-    description: I fully understand the jSON syntax.
+    description: I fully understand the jSON syntax. And have experience with designing and crafting APIs with jSON.
   - name: LaTeX
     web_url: https://github.com/topics/latex
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/latex/latex.png
