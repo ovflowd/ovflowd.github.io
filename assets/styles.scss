@@ -1,23 +1,24 @@
 ---
 ---
+
+@import '_highlight-syntax';
 @import "@primer/css/index.scss";
 @import "@primer/octicons/build/build.css";
-@import 'highlight-syntax';
 
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 .repo-language-color {
-    filter: brightness(125%) !important;
-    border-radius: 50%;
-    display: inline-block;
-    height: 12px;
-    position: relative;
-    top: 2px;
-    width: 12px;
+  filter: brightness(125%) !important;
+  border-radius: 50%;
+  display: inline-block;
+  height: 12px;
+  position: relative;
+  top: 2px;
+  width: 12px;
 }
 
 .emoji {
@@ -56,4 +57,14 @@
 
 .home-content {
   background: url(contribution-graph.svg) repeat-x 0 100px;
+}
+
+@media screen and (min-width: 800px) and (max-height: 1012px) {
+  .hide-md {
+    display: none !important;
+  }
+
+  .hide-lg {
+    display: block !important;
+  }
 }
