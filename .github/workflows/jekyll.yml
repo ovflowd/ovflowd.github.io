@@ -32,5 +32,5 @@ jobs:
           SECRET_GH_PAGES_API_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           POST_BUILD_COMMANDS: |
             cp CNAME $JEKYLL_DATA_DIR
-            cp -R ./well-known $JEKYLL_DATA_DIR
+            cp -R .well-known $JEKYLL_DATA_DIR
           GIT_COMMIT_MESSAGE: Auto-commit from GitHub Actions Jekyll Builder.
