@@ -24,11 +24,10 @@ jobs:
         env:
           CI: true
       - name: Build & Deploy 🚀
-        uses: meitar/jekyll-builder-for-github-pages-action@1.0.2
+        uses: meitar/jekyll-builder-for-github-pages-action@builder-3.8
         env:
           PAGES_REPO_NWO: ${{ github.repository }}
           JEKYLL_GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          JEKYLL_ROOTLESS: true
         with:
           SECRET_GH_PAGES_API_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           POST_BUILD_COMMANDS: |
