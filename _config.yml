@@ -46,7 +46,7 @@ social_media:
   telegram: ovflowd
   instagram: ovflowd
   linkedin: claudio-santoro
-  # keybase: ovflowd
+  keybase: ovflowd
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: 13355219
@@ -54,6 +54,8 @@ social_media:
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+
+keybase: 94EAE89A2C755253
 
 topics:
   - name: React

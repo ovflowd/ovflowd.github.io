@@ -35,7 +35,7 @@
     {% endif %}
     <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
       {% octicon key height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:PGP %}
-      5A0A34183B8CA5D5
+      {{ site.keybase }}
     </div>
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
