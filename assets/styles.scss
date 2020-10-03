@@ -4,8 +4,12 @@
 @import '_highlight-syntax';
 @import '_theme';
 @import "@primer/css/index.scss";
-@import "@primer/octicons/build/build.css";
 
+.octicon {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor;
+}
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
