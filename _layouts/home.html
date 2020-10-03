@@ -26,7 +26,8 @@
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
-    <div class="position-relative flex-self-stretch {% if site.style == 'dark' %}bg-blue{% else %}border-md-right border-blue-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 py-6">
+    <div class="position-relative flex-self-stretch {% if site.style == 'dark' %}bg-blue{% else %}border-md-right border-blue-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 pb-6">
+      <div class="profile-picture mb-4"></div>
       <div class="hide-sm hide-md d-lg-block d-xl-block position-fixed px-4 px-md-6 px-lg-7" style="width: inherit;">
         {% include masthead.html metadata=true %}
       </div>
