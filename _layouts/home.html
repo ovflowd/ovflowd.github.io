@@ -27,16 +27,15 @@
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
     <div class="position-relative flex-self-stretch {% if site.style == 'dark' %}bg-blue{% else %}border-md-right border-blue-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 pb-6">
-      <div class="profile-picture mb-4"></div>
-      <div class="hide-sm hide-md d-lg-block d-xl-block position-fixed px-4 px-md-6 px-lg-7" style="width: inherit;">
+      <div class="hide-sm hide-md d-lg-block d-xl-block position-fixed" style="width: inherit;">
         {% include masthead.html metadata=true %}
       </div>
-      <div class="hide-lg hide-xl d-md-block d-sm-block px-4 px-md-6 px-lg-7">
+      <div class="hide-lg hide-xl d-md-block d-sm-block">
         {% include masthead.html metadata=true %}
       </div>
       <p class="text-center text-white position-absolute bottom-0 right-0 mx-4 text-center my-2 hide-sm hide-md">
         Hosted on {% octicon logo-github height:20 class:"v-align-top" fill:{{ icon_color }} aria-label:Location %}
-        using <a href="https://github.dev" class="text-white"><b>.DEV</b></a>
+        using <a href="https://github.com/github/personal-website" class="text-white"><b>.DEV</b></a>
         and <a href="https://http://jekyllrb.com" class="text-white"><b>Jekyll</b></a>
       </p>
     </div>
