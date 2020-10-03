@@ -1,5 +1,6 @@
 .profile-picture {
-    background: url(../assets/profile.png) cover;
+    background: url(../assets/profile.png) no-repeat;
+    background-size: cover;
     height: 269px;
     width: 100%;
 }
