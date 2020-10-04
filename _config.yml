@@ -33,11 +33,12 @@ profile:
 
 projects:
   sort_by: stars
-  limit: 12
+  limit: 24
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
+      - ovflowd
 
 include: [".well-known"]
 
